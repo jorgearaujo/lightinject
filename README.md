@@ -12,7 +12,6 @@ buildscript {
 
     dependencies {
         classpath 'com.uphyca.gradle:gradle-android-aspectj-plugin:0.9.+'
-        classpath 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
     }
 }
 
