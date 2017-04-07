@@ -22,11 +22,11 @@ apply plugin: 'android-aspectj'
 
 ```java
 new BindingConfiguration() {
-			@Override
-			public void configure() {
-				from(TextGenerator.class).to(TextLowercaseGenerator.class).add();
-			}
-		}.configure();
+	@Override
+	public void configure() {
+		from(TextGenerator.class).to(TextLowercaseGenerator.class).add();
+	}
+}.configure();
 ```
 
 There are some options to use in the configuration method:
