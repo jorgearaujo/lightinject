@@ -30,10 +30,10 @@ new BindingConfiguration() {
 ```
 
 There are some options to use in the configuration method:
-`from` -> Specifies the type that is going to be injected.
-`to` -> When an field with type `from` is injected, it will be injected to a instance of the class specified in `to`.
-`provider` -> Allows to create a class (that should implement `Provider`) that will have the instantiation logic.
-`singleton` -> The instance will be the same for all the injections. Otherwise, a new instance will be created per injection.
+- `from` -> Specifies the type that is going to be injected.
+- `to` -> When an field with type `from` is injected, it will be injected to a instance of the class specified in `to`.
+- `provider` -> Allows to create a class (that should implement `Provider`) that will have the instantiation logic.
+- `singleton` -> The instance will be the same for all the injections. Otherwise, a new instance will be created per injection.
 
 #### 3. Inject your fields!
 
